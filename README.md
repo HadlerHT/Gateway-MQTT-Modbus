@@ -12,15 +12,6 @@ Welcome to the MQTT-Modbus Gateway project, which integrates legacy Modbus RTU n
 - **Access Control**: Authentication for clients and devices to ensure secure access to topics.
 - **Flexible Topic Structure**: Customizable topic structure to handle requests, responses, and network communication.
 
-## Repository Structure
-
-This repository is organized into multiple branches, each dedicated to specific components of the project:
-
-- **main**: The main branch that ties everything together.
-- **gateway-broker**: Contains the implementation of the MQTT broker with Aedes.
-- **gateway-esp32-firmware**: Houses the firmware code for the ESP32, which acts as a Modbus-to-MQTT gateway.
-- **python-mqtt-client**: Provides a Python client for testing and interacting with the MQTT broker.
-
 ## Key Technologies
 
 - **Hardware**: ESP32 DevKit, MAX485 for Modbus RTU.
