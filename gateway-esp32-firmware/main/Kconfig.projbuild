@@ -1,0 +1,38 @@
+menu "WiFi Setup"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "your_ssid"
+        help
+            Enter your WiFi SSID.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "your_password"
+        help
+            Enter your WiFi password.
+
+endmenu
+
+menu "MQTT Setup"
+
+    config MQTT_BROKER_URI
+        string "MQTT Broker URI"
+        default "mqtt://your_broker_uri"
+        help
+            Enter the MQTT broker URI in the format mqtt://<ip_address>:<port>.
+            
+    config MQTT_DEVICE_NAME
+        string "MQTT Device Name"
+        default "your_device_name"
+        help
+            Enter the device name for MQTT authentication in the format device@organization.
+
+    config MQTT_PASSWORD
+        string "MQTT Password"
+        default "your_password"
+        help
+            Enter the password for MQTT authentication.
+
+endmenu
+

@@ -1,0 +1,32 @@
+{
+  "name": "mqtt_broker",
+  "version": "1.0.0",
+  "description": "mqtt broker with user request parser for tcc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "[TCC]Broker"
+  },
+  "author": "Hadler Tempesta",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^0.51.0",
+    "ajv": "^8.12.0",
+    "bcrypt": "^5.1.1",
+    "module-alias": "^2.2.3",
+    "mongodb": "^6.8.1",
+    "mongoose": "^8.5.4"
+  },
+  "_moduleAliases": {
+    "@core": "src/core",
+    "@database": "src/database",
+    "@keywords": "src/keywords",
+    "@maps": "src/maps",
+    "@parser": "src/parser",
+    "@schemas": "src/schemas",
+    "@validator": "src/validator"
+  }
+}

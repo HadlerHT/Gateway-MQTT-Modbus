@@ -1,0 +1,19 @@
+{
+    "RETURN_QUERY_DATA":                        ["rqdt", "return-query-data",                        0, true ],
+    "RESTART_COMMUNICATIONS_OPTION":            ["rcop", "restart-communications-option",            1, false],
+    "RETURN_DIAGNOSTIC_REGISTER":               ["rdrg", "return-diagnostic-register",               2, true ],
+    "CHANGE_ASCII_INPUT_DELIMITER":             ["caid", "change-ascii-input-delimiter",             3, false],
+    "FORCE_LISTEN_ONLY_MODE":                   ["flom", "force-listen-only-mode",                   4, false],
+    "CLEAR_COUNTERS_AND_DIAGNOSTIC_REGISTER":   ["ccdr", "clear-counters-and-diagnostic-register",  10, false],
+    "RETURN_BUS_MESSAGE_COUNT":                 ["rbmc", "return-bus-message-count",                11, true ],
+    "RETURN_BUS_COMMUNICATION_ERROR_COUNT":     ["rbce", "return-bus-communication-error-count",    12, true ],
+    "RETURN_BUS_EXCEPTION_ERROR_COUNT":         ["rbee", "return-bus-exception-error-count",        13, true ],
+    "RETURN_SLAVE_MESSAGE_COUNT":               ["rsmc", "return-slave-message-count",              14, true ],
+    "RETURN_SLAVE_NO_RESPONSE_COUNT":           ["rsrc", "return-slave-no-response-count",          15, true ],
+    "RETURN_SLAVE_NAK_COUNT":                   ["rnak", "return-slave-nak-count",                  16, true ],
+    "RETURN_SLAVE_BUSY_COUNT":                  ["rsbc", "return-slave-busy-count",                 17, true ],
+    "RETURN_BUS_CHARACTER_OVERRUN_COUNT":       ["rbso", "return-bus-character-overrun-count",      18, true ],
+    "RETURN_IOP_OVERRUN_COUNTER":               ["riop", "return-iop-overrun-counter",              19, true ],
+    "CLEAR_OVERRUN_COUNTER":                    ["cocf", "clear-overrun-counter",                   20, false],
+    "GET_CLEAR_MODBUS_STATISTICS":              ["gcms", "get-clear-modbus-statistics",             21, true ]
+}

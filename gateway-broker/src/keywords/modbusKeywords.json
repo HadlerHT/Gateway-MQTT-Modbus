@@ -1,0 +1,22 @@
+{
+    "ID_PROPERTY":          ["id", "identifier"],
+    "FUNCTION_PROPERTY":    ["fn", "function"],
+    "DATATYPE_PROPERTY":    ["dt", "datatype"],
+    "RANGE_PROPERTY":       ["rg", "range"],
+    "LIST_PROPERTY":        ["ls", "list"],
+    "VALUES_PROPERTY":      ["dv", "values"],
+    "SUBFUNCTION_PROPERTY": ["sf", "subfunction"],
+    "PACKET_PROPERTY":      ["pk", "packet"],
+    "WRITE":                ["w" , "write"],
+    "READ":                 ["r" , "read"],
+    "DIAGNOSIS":            ["d" , "diagnosis"],
+    "MODBUS":               ["mb", "modbus"],
+    "BOOLEAN_INPUT":        ["bi", "boolean-input"],
+    "BOOLEAN_OUTPUT":       ["bo", "boolean-output"],
+    "NUMERIC_INPUT":        ["ni", "numeric-input"],
+    "NUMERIC_OUTPUT":       ["no", "numeric-output"],
+    "STATUS":               ["st", "status"],
+    "FETCHED_DATA":         ["fd", "fetched-data"],
+    "MESSAGE":              ["mg", "message"],
+    "ALLOWED_VALUES":       ["av", "allowed-values"]
+}
